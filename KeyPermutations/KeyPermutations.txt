@@ -1,0 +1,1 @@
+Bijection is a function that is injective meaning that it has one to one match between inputs and outputs that are unique.
