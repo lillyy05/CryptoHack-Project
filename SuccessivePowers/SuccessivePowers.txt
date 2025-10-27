@@ -1,0 +1,8 @@
+List of Numbers: 588,665, 216,113,642,4,836,114,851,492,819,237
+
+- Start with a number
+- Multiply by a secret number x
+- If the result is bigger than the secret limit p, squish it down repeatedply
+  subtracting p until it is smaller than p.
+- Each step in the list works in this way.
+- So the answer we are left with is p = 919 x = 209
