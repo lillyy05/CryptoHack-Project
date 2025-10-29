@@ -1,0 +1,20 @@
+Transparency Challenge Solution
+================================
+
+The challenge requires finding which cryptohack.org subdomain uses the RSA public key 
+from transparency.pem by searching Certificate Transparency logs.
+
+Steps:
+1. Parse the RSA public key from transparency.pem (optional - mainly for understanding)
+2. Search Certificate Transparency logs at https://crt.sh/?q=cryptohack.org
+3. Look for cryptohack.org subdomains in the results
+4. Find: thetransparencyflagishere.cryptohack.org
+5. Visit: https://thetransparencyflagishere.cryptohack.org
+
+Flag: crypto{thx_redpwn_for_inspiration}
+
+Key Learning:
+- Certificate Transparency is a security measure requiring all CAs to publish issued certificates
+- This prevents fraudulent certificates from being issued secretly
+- Anyone can search CT logs to find certificates for any domain
+- The subdomain name itself was a hint: "thetransparencyflagishere"
