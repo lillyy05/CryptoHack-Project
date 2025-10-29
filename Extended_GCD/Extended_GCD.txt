@@ -1,0 +1,26 @@
+2 prime numbers p = 26513, q = 32321
+
+26513 x u + 32321 x v = 1
+
+pick the lower number between u and v
+
+multiply 26513 by u
+multiply 32321 by v
+add them together
+get exactly 1
+
+divide 32321 by 26513:
+32321 divide  by 26513 = 1 remainder 5808
+
+divide 26513 by 5808:
+26513 divide by 5808 = 4 remainder 3281
+
+divide 5808 by 3281:
+5808 divide by 3281 = 1 remainder 2527
+keep dividing until remainder is 1.
+
+u = 10245
+v = -8404
+
+-8404 is smaller and negative than 10245
+
