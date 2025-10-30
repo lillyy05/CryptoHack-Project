@@ -1,0 +1,73 @@
+A primitive element is a number that can create all the other numbers in this list just by multiplying itself over and over.
+
+mod p = the remainder when dividing by p
+
+n = 2
+
+2¹ = 2
+
+2² = 4
+
+2³ = 8 -> 8 ÷ 7 = 1 remainder 1
+
+2⁴ = 16 -> 16 ÷ 7 = 2 remainder 2
+
+Sequence: 2, 4, 1, 2, 4, 1...
+
+Only generates: {1, 2, 4}  Not all numbers
+============================================
+
+n = 3
+
+3¹ = 3
+
+3² = 9 -> 9 ÷ 7 = 1 remainder 2
+
+3³ = 27 -> 27 ÷ 7 = 3 remainder 6
+
+3⁴ = 81-> 81 ÷ 7 = 11 remainder 4
+
+3⁵ = 243 -> 243 ÷ 7 = 34 remainder 5
+
+3⁶ = 729 -> 729 ÷ 7 = 104 remainder 1
+
+Sequence: 3, 2, 6, 4, 5, 1
+
+Generates: {1, 2, 3, 4, 5, 6}  ALL numbers!
+
+So for p = 7, the smallest primitive element is 3
+===================================================
+
+using mathematical shortcut, check for 3 specific calculations:
+
+Does n¹⁴⁰⁷⁵ = 1? No 
+
+Does n⁵⁶³⁰ = 1? No 
+
+Does n⁵⁰ = 1? No 
+
+if the answers are not all equal to 1 then it is a primitive element.
+
+why use this numbers because: 
+
+p = 28151
+
+p - 1 = 28150 = 2 × 5 × 5 × 563
+
+28150 ÷ 2 = 14075 
+
+28150 ÷ 5 =  5630 
+
+ 28150 ÷ 563 = 50
+
+Test numbers starting from 2:
+
+n = 2
+n = 3
+n = 4
+n = 5
+n = 6
+n = 7 ✓ passes all the tests
+
+
+
