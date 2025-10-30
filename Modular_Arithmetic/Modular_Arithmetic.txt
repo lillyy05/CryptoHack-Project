@@ -2,7 +2,10 @@
 11- 6 = 5
 so therefore x = 5
 
-remainder should be found when the big number is divided by 17
+remainder should be found when the big number is divided by 17 
+
 17 x 479223442879 = 8146798528943
+
 8146798528943 - 8146798528947 = 4
+
 so therefore y = 4
