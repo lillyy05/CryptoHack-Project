@@ -1,0 +1,27 @@
+There are 3 numbers: 14, 6, and 11
+
+Need to find the perfect square for modulo 29
+
+Modulo 29 is subtracting 29 repeatedly until a number is between 0 and 28
+
+Test all the numbers from 1 - 28
+
+Square them , Subtract until the result is between 0 and 28 and see if any squared number matches 14, 6, and 11
+
+8²=64 → 64−29=35 → 35−29=6 ✓
+
+8²=64 → 64−29=35 → 35−29=6 ✓
+
+21²=441 → 441−29×15=441−435=6 ✓
+
+For both 14 and 11 - no number from 1 to 28 gives 14 or 11 when squared or subtratced by modulo 29
+
+so 6 is a quadratic residue
+
+8² ≡ 6 mod 29  
+
+21² ≡ 6 mod 29
+
+The square roots are 8 and 21
+
+The smaller is 8, therefore answer is 8.
